@@ -6,7 +6,9 @@
     display: table;
 }
 
-
+[class*="col-"]{
+    border: 1px solid black;
+}
 
 [class*="col-"]{
     float: left;
@@ -60,6 +62,7 @@
 
 .col-12{   
     width: calc((100% / 12) * 12 );
+    /* COL-12PUO ESSERE PURE  width:100%*/ 
 }
 
 
@@ -112,5 +115,4 @@
 
 .col-OFFSET-12{   
     margin-left: calc((100% / 12) * 12 );  
-    /* COL-12PUO ESSERE PURE  width:100%*/ 
 }
