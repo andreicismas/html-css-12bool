@@ -8,16 +8,18 @@
 .container{
     border: 1px solid black;
     margin: auto;
-    width: 1020px;
-    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
     text-align: center;
     font-size: 20px;
+   
     
 }
 
+
 .row.nested >*.col-6{
     padding: 6px;
-
 }
 
 .row.nested .col-6 .row>*{
@@ -30,8 +32,6 @@
     background-color: #FFC0CB;
 }
 
-.row{
-    
-}
+
 
 /* UTILITY CLASS */
